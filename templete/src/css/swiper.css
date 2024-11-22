@@ -1,0 +1,30 @@
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+/* 네비게이션 버튼 커스텀 스타일 */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+}
+
+/* 페이지네이션 커스텀 스타일 */
+.swiper-pagination-bullet {
+  background: #333;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007aff;
+}
