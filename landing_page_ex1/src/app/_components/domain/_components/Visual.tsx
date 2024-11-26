@@ -25,13 +25,13 @@ const VisualSection = forwardRef<HTMLElement>((props, ref) => {
       tl.fromTo(
         visualH1Ref.current,
         {
-          duration: 0.8,
+          duration: 0.5,
           x: -50,
           opacity: 0,
           ease: "back.out(1.7)",
         },
         {
-          duration: 0.8,
+          duration: 0.5,
           opacity: 1,
           x: 0,
          ease: "back.out(1.7)",
@@ -39,13 +39,13 @@ const VisualSection = forwardRef<HTMLElement>((props, ref) => {
       ).fromTo(
         visualPRef.current,
         {
-          duration: 0.8,
+          duration: 0.5,
           x: -50,
           opacity: 0,
          ease: "back.out(1.7)",
         },
         {
-          duration: 0.8,
+          duration: 0.5,
           opacity: 1,
           x: 0,
           ease: "back.out(1.7)",

@@ -24,13 +24,13 @@ const ContactSection = forwardRef<HTMLElement>((props, ref) => {
       tl.fromTo(
         contactH1Ref.current,
         {
-          duration: 0.8,
+          duration: 0.5,
           y: 50,
           opacity: 0,
           ease: "power2.inOut",
         },
         {
-          duration: 0.8,
+          duration: 0.5,
           opacity: 1,
           y: 0,
           ease: "power2.inOut",
@@ -39,13 +39,13 @@ const ContactSection = forwardRef<HTMLElement>((props, ref) => {
         .fromTo(
           contactPRef.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             y: 50,
             opacity: 0,
             ease: "power2.inOut",
           },
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 1,
             y: 0,
             ease: "power2.inOut",
@@ -54,13 +54,13 @@ const ContactSection = forwardRef<HTMLElement>((props, ref) => {
         .fromTo(
           contactFormRefWrap.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             y: 50,
             opacity: 0,
             ease: "power2.inOut",
           },
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 1,
             y: 0,
             ease: "power2.inOut",

@@ -46,13 +46,13 @@ const IntroductionSection = forwardRef<HTMLElement>((props, ref) => {
       tl.fromTo(
         introH1Ref.current,
         {
-          duration: 0.8,
+          duration: 0.5,
           y: 50,
           opacity: 0,
           ease: "power2.inOut",
         },
         {
-          duration: 0.8,
+          duration: 0.5,
           opacity: 1,
           y: 0,
           ease: "power2.inOut",
@@ -61,13 +61,13 @@ const IntroductionSection = forwardRef<HTMLElement>((props, ref) => {
         .fromTo(
           introPRef.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             y: 50,
             opacity: 0,
             ease: "power2.inOut",
           },
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 1,
             y: 0,
             ease: "power2.inOut",
@@ -76,13 +76,13 @@ const IntroductionSection = forwardRef<HTMLElement>((props, ref) => {
         .fromTo(
           statsH1Ref.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             y: 50,
             opacity: 0,
             ease: "power2.inOut",
           },
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 1,
             delay: 0.3,
             y: 0,
@@ -92,21 +92,21 @@ const IntroductionSection = forwardRef<HTMLElement>((props, ref) => {
         .fromTo(
           statsPRef.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             y: 50,
             opacity: 0,
             delay: 0.3,
             ease: "power2.inOut",
           },
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 1,
             y: 0,
             ease: "power2.inOut",
           }
         )
         .from(statsRefs.current, {
-          duration: 0.8,
+          duration: 0.5,
           opacity: 0,
           y: 30,
           stagger: 0.2, // 각 텍스트 요소의 간격

@@ -32,13 +32,13 @@ const ServicesSection = forwardRef<HTMLElement>((props, ref) => {
       tl.fromTo(
         serviceH1Ref.current,
         {
-          duration: 0.8,
+          duration: 0.5,
           y: 50,
           opacity: 0,
           ease: "power2.inOut",
         },
         {
-          duration: 0.8,
+          duration: 0.5,
           opacity: 1,
           y: 0,
           ease: "power2.inOut",
@@ -47,13 +47,13 @@ const ServicesSection = forwardRef<HTMLElement>((props, ref) => {
         .fromTo(
           servicePRef.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             y: 50,
             opacity: 0,
             ease: "power2.inOut",
           },
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 1,
             y: 0,
             ease: "power2.inOut",
@@ -62,7 +62,7 @@ const ServicesSection = forwardRef<HTMLElement>((props, ref) => {
         .from(
           serviceContentsRefs.current,
           {
-            duration: 0.8,
+            duration: 0.5,
             opacity: 0,
             y: 50,
             stagger: 0.2, // 각 요소들 사이의 간격
