@@ -1,0 +1,29 @@
+.scroll-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.scroll-text {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.first-text {
+  background-color: #e6f2ff;
+}
+
+.second-text {
+  background-color: #e6ffe6;
+}
+
+.third-text {
+  background-color: #fff2e6;
+}
+
+.spacer {
+  height: 100vh;
+}

@@ -1,0 +1,56 @@
+/* <============= section02 영역 =============> */
+.section02 {
+  width: 100%;
+}
+
+.section02 .service_container {
+  padding: 80px 0;
+  height: 700px;
+}
+
+
+.section02 .service_inner {}
+
+.section02 .inner_txt h2 {
+  font-size: 2em;
+}
+
+.section02 .inner_txt p {
+  font-size: 1.7em;
+  font-weight: 300;
+  color: #897e7e;
+}
+
+.service_inner .service_content_list {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.service_inner .service_content {
+  width: 350px;
+  height: 350px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.service_content img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.service_content .txt {
+  text-align: center;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3em;
+}

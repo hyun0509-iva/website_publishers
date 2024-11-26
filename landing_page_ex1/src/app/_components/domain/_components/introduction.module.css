@@ -1,0 +1,94 @@
+/* <============= section01 영역 =============> */
+.section01 {
+  width: 100%;
+}
+
+.section01 .wrap {
+  font-size: 18px;
+}
+
+/* introdcution */
+.section01 .intro_container {
+  text-align: center;
+  height: 350px;
+  padding: 80px 0;
+}
+
+.section01 .inner_txt {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.section01 .txt {
+  width: 100%;
+}
+
+.section01 .wrap .inner_txt h2 {
+  font-size: 2em;
+}
+
+.section01 .wrap .inner_txt p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.7em;
+
+  .txt_color {
+    color: #7b3cac;
+  }
+}
+
+.section01 .stats_container {
+  padding: 80px 0;
+  height: 400px;
+}
+
+.section01 .wrap h2 {
+  font-size: 2em;
+}
+
+.section01 .wrap p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #897e7e;
+}
+
+.section01 .stats_inner {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.section01 .stats_inner .stats {
+  width: 350px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.stats:not(.stats:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  background-color: #ccc;
+  height: 72px;
+}
+
+.stats .name {
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #8c4abd;
+}
+
+.stats .value,
+.stats .percent {
+  font-size: 1.6em;
+  font-weight: 800;
+}

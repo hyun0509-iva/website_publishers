@@ -1,0 +1,77 @@
+/* <============= contact 영역 =============> */
+.contact {
+  width: 100%;
+}
+
+.contact .contact_container {
+  padding: 80px 0;
+  height: fit-content;
+}
+
+.contact .wrap h2 {
+  font-size: 2em;
+}
+
+.contact .wrap .form_wrap {
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .wrap .form_wrap form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.form_wrap label {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  border-bottom: 1px solid #897e7e;
+}
+
+.form_wrap label:nth-child(4) {
+  border: none;
+}
+
+.form_wrap label .name {
+  display: inline-block;
+  align-self: start;
+  font-size: 1.2em;
+}
+
+.form_wrap input,
+.form_wrap textarea {
+  outline: none;
+  border: none;
+  height: 35px;
+  font-size: 1.2em;
+  background: transparent;
+}
+
+.form_wrap form label textarea {
+  margin-top: 10px;
+  padding: 10px;
+  height: 300px;
+  resize: none;
+  border: 1px solid #bababa;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.form_wrap form .frm_btn {
+  margin-left: 10px;
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.form_wrap form .frm_btn:hover {
+  opacity: 0.7;
+}
